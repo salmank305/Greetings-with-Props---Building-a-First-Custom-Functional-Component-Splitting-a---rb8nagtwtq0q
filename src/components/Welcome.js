@@ -1,8 +1,8 @@
- const Welcome=(props)=>{
+ const Welcome=({name})=>{
     return(
         <div>
-            <h1>"Hey !"{props.name}</h1>
-<h2>"Welcome to Newton School."</h2>
+            <div>Hey !<h1>name</h1></div>
+<h2>Welcome to Newton School.</h2>
         </div>
     )
 }
